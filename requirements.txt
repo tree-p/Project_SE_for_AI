@@ -1,6 +1,7 @@
 # Core numerical & image processing
 numpy>=1.26.0
 opencv-python>=4.9.0
+pandas
 
 # Visualization (for ipynb experiments)
 matplotlib>=3.8.0
