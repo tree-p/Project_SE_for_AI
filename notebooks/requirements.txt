@@ -1,0 +1,13 @@
+# Core numerical & image processing
+numpy>=1.26.0
+opencv-python>=4.9.0
+
+# Visualization (for ipynb experiments)
+matplotlib>=3.8.0
+
+# Jupyter Notebook support
+jupyterlab>=4.0.0
+ipykernel>=6.29.0
+
+# Optional but recommended (dataset handling / progress)
+tqdm>=4.66.0
