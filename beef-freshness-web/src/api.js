@@ -3,7 +3,7 @@ export async function analyzeBeef(imageFile) {
   const formData = new FormData();
   formData.append("file", imageFile);
 
-  const response = await fetch("http://127.0.0.1:8000/analyze", {
+  const response = await fetch("https://project-se-for-ai.onrender.com/analyze", {
     method: "POST",
     body: formData
   });
