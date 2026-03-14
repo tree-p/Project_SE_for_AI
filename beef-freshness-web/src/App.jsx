@@ -1,5 +1,4 @@
 import meat1 from "./assets/beef.jpg";
-import meat2 from "./assets/beef2.jpg";
 import meat3 from "./assets/beef3.jpg";
 import Home from "./pages/Home";
 
