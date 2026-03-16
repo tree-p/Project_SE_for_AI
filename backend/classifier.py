@@ -7,8 +7,10 @@ import base64
 import io
 import numpy as np
 
+from normalization import preprocess_color_illumination_tuned
+
 def preprocess_image(img_rgb: np.ndarray) -> np.ndarray:
-    out = cv2.GaussianBlur(img_rgb, (5, 5), 0)
+    out = preprocess_color_illumination_tuned(img_rgb)
     return out
 
 CLASSES = ["Fresh", "Half-Fresh", "Spoiled"]
